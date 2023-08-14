@@ -55,7 +55,7 @@ const TodoEdit = ({ data, setData }) => {
           value={title}
         />
         <button className="todo-button" type="submit" onClick={addToDo}>
-          <FontAwesomeIcon icon={faPlus} />
+          <FontAwesomeIcon icon={faPlus} className="fa-plus" />
         </button>
         <div className="select">
           <select
